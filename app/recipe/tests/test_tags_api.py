@@ -99,4 +99,3 @@ class PrivateTagsApiTests(TestCase):
         serializer2 = TagSerializer(tag2)
         self.assertIn(serializer1.data, res.data)
         self.assertNotIn(serializer2.data, res.data)
-
